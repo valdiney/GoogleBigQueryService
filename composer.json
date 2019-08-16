@@ -1,5 +1,5 @@
 {  
-    "name":"valdiney/upload-files",
+    "name":"valdiney/Google-BigQuery-Service",
     "description":"This Service is used to abstrain the use of the BigQuery from Google using php language.",
     "type":"class",
     "keywords":["BigQuery","GoogleBigQuery"],

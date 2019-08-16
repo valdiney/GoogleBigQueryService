@@ -50,9 +50,6 @@ $bigQuery->setDatasetId("datasetName");
 # The name of table
 $bigQuery->setTable("tableName");
 
-# Struturing the schema of the table. 
-$data = ["name" => "Nicolas tesla", "age" => 87];
-
-# Inserting data in our table
-$bigQuery->insert($data);
+# Inserting data in our table. You shoul pass an associative array to the insert method
+$bigQuery->insert(["name" => "Nicolas tesla", "age" => 87]);
 ```

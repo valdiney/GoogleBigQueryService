@@ -2,14 +2,14 @@
 This Service is used to abstrain the use of the BigQuery from Google using php language
 
 ### Dependencis
-To use this Service you sould first install the offial library from Google:
+To use this Service you should first install the offial library from Google:
 
 ```sh
 $ composer require google/cloud-bigquery
 ```
 
 ### Inicial usage
-To start you sould firts create a dataset and a table:
+To start, you should firts create a dataset and a table:
 
 ```php
 require_once 'vendor/autoload.php';

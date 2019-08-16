@@ -55,7 +55,7 @@ $bigQuery->insert(["name" => "Nicolas tesla", "age" => 87]);
 ```
 
 ### Selecting data from our table
-To select data is very simple. You just need pass your SQL query to the query method. You need pass the  especial string "{table} "
+To select data is very simple. You just need pass your SQL query to the query method. <br> You need pass the  especial string "{table} "
 between the SQL query. This especial string  will be repleced into the class in a format that the BigQuery understand!:
 
 ```php

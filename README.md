@@ -13,9 +13,10 @@ To start you sould firts create a dataset and a table:
 
 ```php
 require_once 'vendor/autoload.php';
-require_once 'BigQueryService.php';
+require_once 'BigQueryService/BigQueryService.php';
 
 # Instanciating the object to be used in the our application
+# You should pass the path and name of your json file with yours credensials downloaded from google acount
 $bigQuery = new BigQueryService("AlarmaAe-b01ab0a3aa4c.json");
 
 # Struturing the schema of the table. 
@@ -39,7 +40,7 @@ after creating the dataset and the table, we ready to insert data:
 
 ```php
 require_once 'vendor/autoload.php';
-require_once 'BigQueryService.php';
+require_once 'BigQueryService/BigQueryService.php';
 
 # Instanciating the object to be used in the our application
 $bigQuery = new BigQueryService("AlarmaAe-b01ab0a3aa4c.json");
@@ -60,7 +61,7 @@ between the SQL query. This especial string  will be repleced into the class in 
 
 ```php
 require_once 'vendor/autoload.php';
-require_once 'BigQueryService.php';
+require_once 'BigQueryService/BigQueryService.php';
 
 # Instanciating the object to be used in the our application
 $bigQuery = new BigQueryService("AlarmaAe-b01ab0a3aa4c.json");

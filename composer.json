@@ -14,7 +14,7 @@
     "require": {
         "php": ">=7.0.0",
         "google/cloud-bigquery": "^1.9",
-        "valdiney/google-bigquery-service": "^1.1"
+        "valdiney/google-bigquery-service": "^0.0.1"
     },
     "autoload": {
         "psr-4": {

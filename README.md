@@ -8,7 +8,7 @@ To use this Service you shoul first install the offial library from Google:
 $ composer require google/cloud-bigquery
 ```
 
-### Usage
+### Inicial usage
 To start you sould firts create a dataset and a table:
 
 ```php

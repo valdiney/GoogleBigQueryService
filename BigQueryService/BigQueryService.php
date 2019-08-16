@@ -141,8 +141,7 @@ class BigQueryService
 	}
     
     /*
-    * This method is used internally in this class to facility the SQL query.
-    * This method is used internally in this class to facility the SQL query 
+    * This method is used internally in this class to facility the SQL query
     * that you pass to the insert method. You don´t will need to write the 
     * datasetId and the tableId every time that you write an SQL query.
     * query => The SQL commands passed in query method.

@@ -33,3 +33,26 @@ $schema = [
 # Creating the dataset and the table
 $bigQuery->createSchema("datasetName", "tableName", $schema);
 ```
+
+### Insert data
+after creating the dataset and the table, we ready to insert data:
+
+```php
+require_once 'vendor/autoload.php';
+require_once 'BigQueryService.php';
+
+# Instanciating the object to be used in the our application
+$bigQuery = new BigQueryService("AlarmaAe-b01ab0a3aa4c.json");
+
+# The name of dataset
+$bigQuery->setDatasetId("datasetName");
+
+# The name of table
+$bigQuery->setTable("tableName");
+
+# Struturing the schema of the table. 
+$data = ["name" => "Nicolas tesla", "age" => 87];
+
+# Inserting data in our table
+$bigQuery->insert($data);
+```

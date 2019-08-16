@@ -14,11 +14,10 @@ To start, you should firts create a dataset and a table:
 
 ```php
 require_once 'vendor/autoload.php';
-require_once 'BigQueryService/BigQueryService.php';
 
 # Instanciating the object to be used in the our application
 # You should pass the path and name of your json file with yours credensials downloaded from google acount
-$bigQuery = new BigQueryService("AlarmaAe-b01ab0a3aa4c.json");
+$bigQuery = new GoogleBigQueryService\BigQueryService("AlarmaAe-b01ab0a3aa4c.json");
 
 # Struturing the schema of the table. 
 $schema = [
@@ -41,10 +40,9 @@ after creating the dataset and the table, we ready to insert data:
 
 ```php
 require_once 'vendor/autoload.php';
-require_once 'BigQueryService/BigQueryService.php';
 
 # Instanciating the object to be used in the our application
-$bigQuery = new BigQueryService("AlarmaAe-b01ab0a3aa4c.json");
+$bigQuery = new GoogleBigQueryService\BigQueryService("AlarmaAe-b01ab0a3aa4c.json");
 
 # The name of dataset
 $bigQuery->setDatasetId("datasetName");
@@ -62,10 +60,9 @@ between the SQL query. This especial string  will be repleced into the class in 
 
 ```php
 require_once 'vendor/autoload.php';
-require_once 'BigQueryService/BigQueryService.php';
 
 # Instanciating the object to be used in the our application
-$bigQuery = new BigQueryService("AlarmaAe-b01ab0a3aa4c.json");
+$bigQuery = new GoogleBigQueryService\BigQueryService("AlarmaAe-b01ab0a3aa4c.json");
 
 # The name of dataset
 $bigQuery->setDatasetId("datasetName");

@@ -21,11 +21,11 @@ $bigQuery = new BigQueryService("AlarmaAe-b01ab0a3aa4c.json");
 # Struturing the schema of the table. 
 $schema = [
 	[
-		"name" => "name",
+	  "name" => "name",
 	  "type" => "string"
 	],
 	[
-		"name" => "age",
+	    "name" => "age",
 	    "type" => "integer"
 	]
 ];

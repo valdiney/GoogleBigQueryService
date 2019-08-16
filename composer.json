@@ -12,6 +12,7 @@
         }
     ],
     "require": {
+        "php": ">=7.0.0",
         "google/cloud-bigquery": "^1.9",
         "valdiney/google-bigquery-service": "^1.1"
     },

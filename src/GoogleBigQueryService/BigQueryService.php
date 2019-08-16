@@ -6,6 +6,7 @@
 * @author Valdiney França <valdiney.2@hotmail.com>
 * @version 0.1
 */
+namespace GoogleBigQueryService;
 
 use Google\Cloud\BigQuery\BigQueryClient;
 use Google\Cloud\Core\ExponentialBackoff;

@@ -1,6 +1,22 @@
-{
-	
+{  
+    "name":"valdiney/upload-files",
+    "description":"This Service is used to abstrain the use of the BigQuery from Google using php language.",
+    "type":"class",
+    "keywords":["BigQuery","GoogleBigQuery"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name":"Valdiney França",
+            "email":"valdiney.2@hotmail.com"
+        }
+    ],
     "require": {
         "google/cloud-bigquery": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
     }
 }
+
